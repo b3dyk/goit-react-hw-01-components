@@ -13,8 +13,6 @@ function getRandomColor() {
   return backgroundColors[Math.floor(Math.random() * 5)];
 }
 
-console.log(Math.floor(Math.random() * 5));
-
 export const Statistics = ({ title, stats }) => {
   return (
     <section className={classNames(styles.statistics)}>
