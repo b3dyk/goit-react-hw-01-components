@@ -9,19 +9,10 @@ export const FriendItem = ({ friends }) => {
         return (
           <li className={classNames(styles.item)} key={id}>
             <span
-              className={
-                isOnline
-                  ? classNames(styles.online)
-                  : classNames(styles.offline)
-              }
+              className={classNames(styles.status, isOnline && styles.online)}
             ></span>
-            <img
-              className={classNames(styles.avatar)}
-              src={avatar}
-              alt="User avatar"
-              width="48"
-            />
-            <p className={classNames(styles.name)}>{name}</p>
+            <img src={avatar} alt="User avatar" width="48" />
+            <p>{name}</p>
           </li>
         );
       })}

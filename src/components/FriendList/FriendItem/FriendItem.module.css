@@ -8,7 +8,7 @@
   border-radius: 4px;
 }
 
-.offline {
+.status {
   display: block;
   width: 15px;
   height: 15px;
@@ -17,15 +17,5 @@
 }
 
 .online {
-  display: block;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
   background-color: #55ab57;
-}
-
-.avatar {
-}
-
-.name {
 }
