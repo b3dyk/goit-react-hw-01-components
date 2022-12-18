@@ -2,12 +2,11 @@
   width: 800px;
   margin: 30px;
 
-  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
   line-height: 1.2;
   font-weight: 500;
   text-align: center;
-
-  color: #122236;
 }
 
 .tableHead {
@@ -17,7 +16,7 @@
 }
 
 .tableHeadings {
-  padding: 8px 16px;
+  padding: 16px;
 }
 
 .tableBody {
@@ -25,14 +24,19 @@
   border-color: #e4e4e4;
 }
 
-.tableRow {
+.tableRow:nth-child(2n) {
   background-color: #ecf1f3;
 }
 
 .tableData {
-  padding-left: 80px;
+  padding-left: 30px;
   padding-top: 4px;
   padding-bottom: 4px;
   text-align: start;
   text-transform: capitalize;
+}
+
+td {
+  color: #929495;
+  font-size: 16px;
 }
