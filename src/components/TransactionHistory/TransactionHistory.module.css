@@ -38,8 +38,8 @@
 
 .tableData {
   padding-left: 30px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   text-align: start;
   text-transform: capitalize;
 }
@@ -47,8 +47,4 @@
 .tableRow:hover {
   background-color: #00bcd5;
   color: #fff;
-}
-
-td {
-  border: 1px inset #e4e4e4;
 }
